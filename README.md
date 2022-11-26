@@ -5,6 +5,23 @@ Simple RSS feed generator based on Jekyll
 * Posts can be Markdown or HTML.
 * Atom 1.0 compliant feed.
 
+## Example
+
+The example posts in the repo produces the structure below. All that is necessary is copying the file and directory into your static website.
+
+```
+_site/
+├── feed
+│   ├── 2022
+│   │   └── 11
+│   │       └── 26
+│   │           ├── example-post-1.html
+│   │           ├── example-post-2.html
+│   │           └── example-post-3.html
+│   └── index.html
+└── feed.xml
+```
+
 ## Usage
 
 1. I recommend forking the project and using it as a base in order to further configure the Atom file and feed HTML directory beyond the configuration file.

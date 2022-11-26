@@ -3,6 +3,13 @@ title: Feed
 layout: default
 ---
 
+<header>
+    <h1 class="mb-0">{{ site.author }} Feed</h1>
+    <p class="mt-0"><a href="{{ site.home }}">{{ site.home_display }}</a></p>
+</header>
+
+<p><i><a href="{{ site.baseurl }}/feed.xml">RSS</a></i></p>
+
 <ul class="posts-ul">
 {% for post in site.posts %}
     <li><i>{{ post.date_display }}</i> - <a href="{{ post.url }}">{{ post.title }}</a></li>

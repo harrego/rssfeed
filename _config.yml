@@ -27,6 +27,10 @@ url: "http://localhost" # the base hostname & protocol for your site, e.g. http:
 home_url: "/"
 home_display: "HOME_DISPLAY"
 
+exclude:
+  - LICENSE
+  - README.md
+
 # Build settings
 # plugins:
 

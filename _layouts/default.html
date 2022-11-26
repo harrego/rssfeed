@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% if page.title %}
+	<title>{{ page.title }} - {{ site.title }}</title>
+  {% else %}
+  <title>{{ site.title }}</title>
+  {% endif %}
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			font-family: serif;
+      		line-height: 1.5;
+		}
+		h1 {
+			font-size: 18px;
+		}
+		h2 {
+			font-size: 16px;
+		}
+		.container {
+			max-width: 600px;
+		}
+		.title {
+			margin-bottom: 0;
+		}
+		.date {
+			margin-top: 0;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		{{ content }}
+	</div>
+</body>
+</html>

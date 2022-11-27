@@ -40,7 +40,7 @@ Configuration variables to be changed in `_config.yml`.
 
 |Name|Description|
 |-|-|
-|`title`|Title of the overall website, not the feed portion specifically.|
+|`title`|Title of the feed.|
 |`author`|Name of the author.|
 |`email`|Email of the author.|
 |`description`|Feed's description.|
